@@ -26,13 +26,9 @@ export const Navbar: React.FC = () => {
                 <span className="font-extrabold text-lg tracking-tight text-white group-hover:text-emerald-300 transition-colors">
                   Doomsday Ready
                 </span>
-                <span className="hidden sm:inline-block px-1.5 py-0.5 rounded text-[10px] font-bold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-                  MCU PREP
-                </span>
+
               </div>
-              <p className="hidden md:block text-[11px] text-slate-500 tracking-wide">
-                Rewatch Planner &amp; Opening-Night Seat Optimizer
-              </p>
+
             </div>
           </NavLink>
 
@@ -45,10 +41,9 @@ export const Navbar: React.FC = () => {
                   key={item.to}
                   to={item.to}
                   className={({ isActive }) =>
-                    `flex items-center space-x-2 px-3.5 py-2 rounded-xl text-xs font-semibold tracking-wide transition-all ${
-                      isActive
-                        ? 'bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 shadow-sm shadow-emerald-950/50'
-                        : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900/60 border border-transparent'
+                    `flex items-center space-x-2 px-3.5 py-2 rounded-xl text-xs font-semibold tracking-wide transition-all ${isActive
+                      ? 'bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 shadow-sm shadow-emerald-950/50'
+                      : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900/60 border border-transparent'
                     }`
                   }
                 >
@@ -73,10 +68,9 @@ export const Navbar: React.FC = () => {
               key={item.to}
               to={item.to}
               className={({ isActive }) =>
-                `flex flex-col items-center justify-center py-1 px-3 rounded-lg text-[10px] font-semibold transition-all ${
-                  isActive
-                    ? 'text-emerald-400 scale-105'
-                    : 'text-slate-500 hover:text-slate-300'
+                `flex flex-col items-center justify-center py-1 px-3 rounded-lg text-[10px] font-semibold transition-all ${isActive
+                  ? 'text-emerald-400 scale-105'
+                  : 'text-slate-500 hover:text-slate-300'
                 }`
               }
             >
