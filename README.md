@@ -2,6 +2,12 @@
 
 Full-stack MCU rewatch planner and cinema watch-party booking application built for MCU fans gearing up for *Avengers: Doomsday*.
 
+## Live Demo
+- **Frontend:** https://doomsday-mcu.vercel.app
+- **Backend API:** https://doomsday-mcu.onrender.com/api
+
+> *Note: The backend runs on Render's free tier and may take up to 50 seconds to spin up on the first request after inactivity.*
+
 ---
 
 ## Tech Stack
