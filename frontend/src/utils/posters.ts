@@ -31,8 +31,8 @@ export const CANONICAL_POSTERS: Record<string, MoviePosterMeta> = {
     secondaryColor: '#38bdf8',
   },
   'captain america: civil war': {
-    localPath: '/posters/civil-war.svg',
-    cdnUrl: 'https://image.tmdb.org/t/p/w500/rAG2NTityOX09Q09nEZt7pQe58Q.jpg',
+    localPath: '/posters/civil-war.jpeg',
+    cdnUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxlADmyMb2Hk62a08eCDST86D2DmoH-N89RuhTMM8ZrA&s=10',
     accentColor: '#ef4444',
     secondaryColor: '#3b82f6',
   },
