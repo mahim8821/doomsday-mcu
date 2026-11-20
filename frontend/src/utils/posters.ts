@@ -55,8 +55,8 @@ export const CANONICAL_POSTERS: Record<string, MoviePosterMeta> = {
     secondaryColor: '#f59e0b',
   },
   'avengers: doomsday': {
-    localPath: '/posters/doomsday.svg',
-    cdnUrl: 'https://image.tmdb.org/t/p/w500/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg',
+    localPath: '/posters/doomsday.jpg',
+    cdnUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYaT6IHyHfx89hyFLymUyZRrgbvUOur2LlhsPLN7IxjA&s=10',
     accentColor: '#10b981',
     secondaryColor: '#059669',
   },
